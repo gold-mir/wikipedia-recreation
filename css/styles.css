@@ -23,7 +23,7 @@
 .featured-picture > .panel-body {
   background-color: #FAF5FF;
 }
-
+/*https://jsbin.com/qoxofa/1/edit?html,css,output*/
 .row.display-flex {
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +32,20 @@
 .row.display-flex > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10em;
+}
+
+.wiki {
+  display: block;
+  width: 10em;
+  height: 160px;
+  background-repeat:no-repeat;
+  background-position:center center;
+  text-decoration: none;
 }
